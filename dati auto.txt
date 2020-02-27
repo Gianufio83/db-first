@@ -1,12 +1,13 @@
 Dati riguardanti un concessionario di auto usate.
 
-Nome Tabella :  Schede Auto
+Nome Tabella :  Scheda_Auto
 
 Colonne:
 
 id- numero incrementale- PRIMARY_KEY - AI - UNIQUE
 Tipo di veicolo- stringa- varchar(60)- NOT NULL
-Marca e Modello- stringa- varchar(60)- NOT NULL
+Marca- stringa- varchar(60)- NOT NULL
+Modello- stringa- varchar(60)- NOT NULL
 Descrizione- stringa- text- 
 Cambio- stringa- varchar(50)-
 Prezzo- float(8,2)-
