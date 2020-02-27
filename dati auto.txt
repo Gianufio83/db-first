@@ -1,0 +1,19 @@
+Dati riguardanti un concessionario di auto usate.
+
+Nome Tabella :  Informazioni per auto Usate
+
+Colonne:
+
+id- numero incrementale- PRIMARY_KEY - AI - UNIQUE
+Tipo di veicolo- stringa- varchar(60)- NOT NULL
+Marca e Modello- stringa- varchar(60)- NOT NULL
+Descrizione- stringa- text- UNIQUE
+Cambio- stringa- varchar(50)-
+Prezzo- float(8,2)-
+Immatricolazione- data- year- NOT NULL
+Kilometri- smallint- NOT NULL
+Carburante- stringa- varchar(50)-
+Colore- stringa- varchar(60)-
+Luogo- stringa- varchar(50)-
+Raggio- intero- smallint-
+poster- stringa- text- DEFAULT('percorso immagine')
