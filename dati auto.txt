@@ -10,11 +10,13 @@ Marca- stringa- varchar(60)- NOT NULL
 Modello- stringa- varchar(60)- NOT NULL
 Descrizione- stringa- text- 
 Cambio- stringa- varchar(50)-
-Prezzo- float(8,2)-
+Prezzo- decimal(8,2)- NOT NULL
 Immatricolazione- data- year- NOT NULL
-Kilometri- smallint- NOT NULL
+Kilometri- int- NOT NULL
 Carburante- stringa- varchar(50)-
+Cilindrata- float(6,2) NOT NULL
 Colore- stringa- varchar(60)-
+Posti- tinyint
 Luogo- stringa- varchar(50)-
 Raggio- intero- smallint-
 poster- stringa- text- DEFAULT('percorso immagine')
